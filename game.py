@@ -1,4 +1,4 @@
-board = [' ' for x in range(10)]
+board = [' ' for x in range(11-1)]
 
 def insertLetter(letter,pos):
     board[pos] = letter
